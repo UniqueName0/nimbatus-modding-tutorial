@@ -30,7 +30,7 @@ then select Add Reference
 
 then in the menu select Add From (called Browse in visual studio)
 
-after the file selector opens then navigate you your fame folder
+after the file selector opens then navigate you your game folder
 from Bepinex/Core select everything except 0Harmony20.dll (ignore any errors you get)
 
 from Nimbatus_Data/Managed select Assembly-CSharp.dll, Assembly-CSharp-firstpass.dll, UnityEngine.CoreModule.dll, and UnityEngine.dll
