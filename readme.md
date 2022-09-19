@@ -128,7 +128,7 @@ public class Select_Patch
 
 this gets the private field item.\_fixedPosition
 
-![](./2022-09-18-20-07-31-image.png)
+![](./images/step-4b.png)
 
 Traverse will output everything as an object so you have to either cast as the correct type or do "as (your type)"
 
