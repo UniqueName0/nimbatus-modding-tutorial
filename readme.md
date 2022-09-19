@@ -18,7 +18,7 @@ that file contains all the code for the game
 
 create a new Class Library (.net framework) project
 
-![](.\images\step-1.png)
+![](./images/step-1.png)
 
 ### step 2
 
