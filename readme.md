@@ -18,13 +18,13 @@ that file contains all the code for the game
 
 create a new Class Library (.net framework) project
 
-![](C:\Users\name3\Documents\00tutorial\images\step-1.png)
+![](.\images\step-1.png)
 
 ### step 2
 
 once it is created right click Dependencies (called References in visual studio)
 
-![](C:\Users\name3\Documents\00tutorial\images\step-2a.png)
+![](.\images\step-2a.png)
 
 then select Add Reference
 
@@ -37,7 +37,7 @@ from Nimbatus_Data/Managed select Assembly-CSharp.dll, Assembly-CSharp-firstpass
 
 and select any others from the Managed folder you need
 
-![](C:\Users\name3\Documents\00tutorial\images\step-2b.png)
+![](.\images\step-2b.png)
 
 it may be helpful to move files you use to another folder so its easier to import for mods
 
@@ -77,7 +77,7 @@ find the part of the code in dnspy you want to modify
 
 for this tutorial I'll use Iteminspect.Select() and output info on selected parts into the console
 
-![](C:\Users\name3\Documents\00tutorial\images\step-4.png)
+![](.\images\step-4.png)
 
 first you create a class like this, you name the class whatever you want, I'll just name mine Select_Patch
 
@@ -128,7 +128,7 @@ public class Select_Patch
 
 this gets the private field item.\_fixedPosition
 
-![](C:\Users\name3\AppData\Roaming\marktext\images\2022-09-18-20-07-31-image.png)
+![](.\2022-09-18-20-07-31-image.png)
 
 Traverse will output everything as an object so you have to either cast as the correct type or do "as (your type)"
 
